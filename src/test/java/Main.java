@@ -29,10 +29,12 @@ public class Main {
         }
 
         // check even or odd from user input
-        if (num % 5 == 0) {
-            System.out.println("The number is Even");
+        int val=5;
+        if (num % val == 0) {
+            System.out.println("The number is Even as it is divided by "+val);
         } else {
-            System.out.println("The number is Odd");}
+            System.out.println("The number is Odd as it is not divided by "+val);}
+
 
         // Use If & switch statement to check the number is positive,negative or Zero by taking value from variable.
         int num1 = 1;
