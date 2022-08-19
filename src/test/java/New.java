@@ -1,7 +1,21 @@
+import java.util.Scanner;
+
 public class New {
     public static void main(String[] args) {
-        String name="zakir";
-        System.out.println("this is a new class of Java Language");
-        System.out.println(name);
+        Scanner userinput = new Scanner (System.in);
+        int num = userinput.nextInt();
+        if (num>0){
+            System.out.println("User input: '"+num+"' is Positive");
+        }
+        else if (num<0) {
+            System.out.println("User input: '"+num+"' is Negative");
+
+        }
+        else {
+            System.out.println("User input: '"+num+"' is 0");
+
+        }
+
+
     }
 }
