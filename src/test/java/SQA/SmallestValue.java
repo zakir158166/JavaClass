@@ -1,3 +1,5 @@
+package SQA;
+
 import java.util.Arrays;
 
 public class SmallestValue {

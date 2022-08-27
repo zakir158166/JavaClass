@@ -1,3 +1,5 @@
+package Eialid;
+
 import java.util.Scanner;
 
 public class Main {
