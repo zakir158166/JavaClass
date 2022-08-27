@@ -26,6 +26,7 @@ public class Main {
                 break;
             default:
                 System.out.println("switch statement " + num + " is Zero");
+                break;
         }
 
         // check even or odd from user input
@@ -58,6 +59,7 @@ public class Main {
                 break;
             default:
                 System.out.println("Not match");
+                break;
         }
 
         // check even or odd from variable value
