@@ -1,10 +1,7 @@
 package Eialid;
-
 import java.util.ArrayList;
 
 public class Solution {
-
-
     public static void main(String[] args) {
 
         int[] nums = {3, 2, 2, 3};
@@ -12,13 +9,11 @@ public class Solution {
         int [] nums1 = {0,1,2,2,3,0,4,2};
         int val1 = 2;
 
-
         removeElement(nums, val);
         removeElement(nums1, val1);
 //        unique_value(nums,val);
 //        unique_value(nums1,val1);
     }
-
 
     // Remove <val> variable values from <nums> array value.
     public static void removeElement(int[] nums, int val) {
